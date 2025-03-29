@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #571b3c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.login{
+    margin-left: auto;    
+}
+
+nav a{
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 16px 14px;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #341931;
+    border-radius: 20%;
+}
+
+header{
+    padding-top: 16px;
+    text-align: center;
+    background-color: #9d2053;
+}
+
+header img{
+    border-radius: 50%;
+}
